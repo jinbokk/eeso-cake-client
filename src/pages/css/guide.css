@@ -1,0 +1,108 @@
+.guide_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--main-font);
+  font-size: 1.08rem;
+  margin: auto;
+}
+
+.guide_title {
+  font-size: 2.5rem;
+}
+
+.guide_sub_title {
+  font-size: 1.2rem;
+}
+
+.cakes_size_image {
+  width: 80% !important;
+  margin: auto;
+}
+
+.cakes_design_image {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.size_info {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.size_info div {
+  padding: 50px;
+}
+
+.design_container {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
+.design_info_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 400px;
+  word-break: keep-all;
+}
+
+/* .taste_info_container,
+.package_info_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.taste_info_container > div,
+.package_info_container > div {
+  margin: 20px;
+} */
+
+.guide_swiper_container {
+  width: 100vw;
+  max-height: 400px;
+}
+
+.swiper_cakes_size_image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper_cakes_size_image {
+  max-width: 70%;
+  max-height: 400px;
+  padding-bottom: 80px;
+}
+
+.guide_swiper_container .swiper-pagination-bullet {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.guide_swiper_container .swiper-pagination-bullet > div {
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  color: var(--bg);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.5rem;
+}
+
+/* .row > div {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+} */

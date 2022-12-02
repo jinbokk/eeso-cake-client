@@ -1,0 +1,22 @@
+.about_container_top {
+  font-family: var(--main-font);
+  font-size: 1rem;
+}
+
+.about_banner_img {
+  width: 800px;
+  object-fit: contain;
+  margin-top: 50px;
+}
+
+.about_text_container {
+  padding: 20px;
+  line-height: 40px;
+}
+
+.text_accent {
+  color: var(--bg-accent);
+  text-decoration: underline 2px;
+  text-underline-offset: 6px;
+  margin: 0 3px;
+}

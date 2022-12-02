@@ -1,0 +1,33 @@
+.filter_container {
+  position: relative;
+  z-index: 90;
+  width: fit-content;
+  height: 100px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  touch-action: auto;
+}
+
+.filter_button {
+  font-size: 1rem;
+  white-space: nowrap;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0 10px;
+  background-color: transparent;
+  border: 1px solid var(--bg-accent);
+  border-radius: 20px;
+  color: var(--bg-accent);
+  transition: 0.2s;
+  cursor: pointer;
+  font-family: var(--main-font);
+}
+
+.filter_button:hover {
+  background-color: var(--bg-accent);
+  color: white;
+  transition: 0.2s;
+}
